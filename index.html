@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learn HTML5 SEO and Accessibility</title>
+    <meta name="description" content="A simple HTML5 page demonstrating best practices for SEO and accessibility.">
+    <meta name="keywords" content="HTML5, SEO, Accessibility, Web Development, Best Practices">
+    <meta name="author" content="kirub21">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="#about" accesskey="a">About</a></li>
+                <li><a href="#seo" accesskey="s">SEO</a></li>
+                <li><a href="#accessibility" accesskey="c">Accessibility</a></li>
+            </ul>
+        </nav>
+        <h1>HTML5 SEO & Accessibility Demo</h1>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About This Page</h2>
+            <p>This sample page demonstrates how to create semantic, accessible, and SEO-friendly HTML5 content.</p>
+        </section>
+
+        <section id="seo">
+            <h2>SEO Best Practices</h2>
+            <ul>
+                <li>Use semantic HTML tags like <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;article&gt;</code>.</li>
+                <li>Include relevant <code>&lt;meta&gt;</code> tags for <strong>description</strong>, <strong>keywords</strong>, and <strong>author</strong>.</li>
+                <li>Use descriptive, unique <code>&lt;title&gt;</code> tags.</li>
+                <li>Structure content with heading tags (<code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, etc.).</li>
+                <li>Use meaningful link text (not just "click here").</li>
+            </ul>
+        </section>
+
+        <section id="accessibility">
+            <h2>Accessibility Best Practices</h2>
+            <ul>
+                <li>Use <code>alt</code> attributes for images.</li>
+                <li>Use landmarks like <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;footer&gt;</code>.</li>
+                <li>Provide clear heading structure.</li>
+                <li>Use <code>aria-label</code> or other ARIA attributes where helpful.</li>
+                <li>Ensure good contrast and readable font sizes.</li>
+                <li>Make navigation keyboard accessible (see accesskey attributes in nav).</li>
+            </ul>
+            <figure>
+                <img src="https://via.placeholder.com/300x100" alt="HTML5 Logo Sample" width="300" height="100">
+                <figcaption>Accessible image example with alt text.</figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 kirub21. All rights reserved.</p>
+        <address>
+            Contact: <a href="mailto:your@email.com">your@email.com</a>
+        </address>
+    </footer>
+</body>
+</html>
